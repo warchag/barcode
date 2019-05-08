@@ -20,7 +20,7 @@ namespace QR_AND_BARCODE
         private void Barcode_Click(object sender, EventArgs e)
         {
             Code128BarcodeDraw barcode = BarcodeDrawFactory.Code128WithChecksum;
-            pictureBox1.Image = barcode.Draw(Mybarcode.Text,20);
+            pictureBox1.Image = barcode.Draw(Mybarcode.Text,20111111);
         }
 
         private void qrcode_Click(object sender, EventArgs e)
